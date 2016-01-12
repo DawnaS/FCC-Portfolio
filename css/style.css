@@ -1,0 +1,317 @@
+/* Thanks Subtle Patterns for the background pattern http://subtlepatterns.com */
+/* Design Seeds Northern Lights palette: #b0ebd3, #6bbd89, #254530, #18212b, #2d5e6e, #ff6a59*/
+/* -- Universal styles --*/
+.wrapper {
+  overflow-x: hidden;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+  position: relative;
+}
+.navbar, .navbar-default {
+  border: none;
+  background: rgba(0,0,0,0.25);
+}
+button.navbar-toggle {
+  box-sizing: border-box;
+}
+.navbar-default .navbar-brand {
+  color: #fff;
+}
+.navbar-default .navbar-nav>.active>a {
+  color: #6bbd89;
+  background-color: rgba(0,0,0,0.5);
+}
+.navbar-default .navbar-nav>li>a:hover {
+  color: #6bbd89;
+}
+.navbar-default .navbar-nav>li>a {
+  color: #fff;
+}
+.divider-light {
+  margin: 0 auto;
+  margin-bottom: 15px;
+  width: 6em;
+  border-bottom: 3px solid #ff6a59;
+}
+.divider-dark {
+  margin: 0 auto;
+  margin-bottom: 40px;
+  width: 6em;
+  border-bottom: 3px solid #6bbd89;
+}
+/* -- particles.js container/hero -- */
+#particles-js { 
+  background: url("../img/sky3.jpg") 50% 0 fixed;
+  background-position: top center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  min-height: 400px;
+  margin: 0 auto; 
+  position: relative; 
+  color: #fff;
+}
+.headline {
+  font-family: 'Signika Negative', sans-serif;
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  margin: auto;
+  left: 0; right: 0; top: 0; bottom: 0;
+  background-color: transparent;
+  text-align: center;
+}
+.headline h1 {
+  margin-top: 80px;
+}
+.buttons i {
+  font-size: 1.5em;
+  color: white;
+}
+.buttons i:hover {
+  color: #ff6a59;
+}
+.jumbotron {
+  padding: 0;
+}
+.chevron {
+  position: absolute;
+  width: 3%;
+  margin: auto;
+  bottom: 10px; left:0; right:0;
+}
+.fa-chevron-down {
+  color: #fff;
+  font-size: 2em;
+}
+/*-- About Section --*/
+#about { 
+  background: url("../img/shl.png") 50% 0 fixed;
+  height: auto;  
+  margin: 0 auto; 
+  width: 100%; 
+  position: relative; 
+  padding: 135px 0;
+  box-sizing: border-box;
+}
+#about h2 {
+  font-size: 2.8em;
+  color: #18212b;
+  margin-top: 0;
+}
+#about p {
+  font-size: 1.3em;
+  color: #18212b;
+}
+h3.prof-margin {
+  margin-top: 2px;
+}
+.skills {
+  margin-left: 15px;
+}
+h3.comp-margin {
+  margin-top: 40px;
+}
+ul {
+  padding-left: 0;
+  list-style-type: none;
+}
+/*-- Portfolio Section --*/
+#portfolio { 
+  background: #18212b 50% 0 fixed; /*363636*/
+  background-size: cover;
+  height: auto;  
+  margin: 0 auto; 
+  width: 100%; 
+  position: relative; 
+  padding-top: 135px;
+  padding-bottom: 100px;
+  box-sizing: border-box;
+  color: #fff;
+}
+.container-fluid.folio-wrap {
+  width: 80%;
+}
+.portfolio-panel-inner {
+  width: 95%;
+  height: 90%;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+#portfolio img {
+  opacity: 0.7;
+}
+#portfolio img:hover {
+  opacity: 1;
+}
+#portfolio h2 {
+  font-size: 2.8em;
+  margin-top: 0;
+}
+#portfolio p {
+  font-size: .95em;
+}
+.row-top-margin {
+  margin-top: 30px;
+}
+.row-top-margin-extra {
+  margin-top: 46px;
+}
+.portfolio-text {
+  position: relative;
+}
+.portfolio-list li {
+  display: inline-block;
+  background-color: #2d5e6e;
+  font-size: .9em;
+  padding: 3px 5px;
+  margin-right: 4px;
+  margin-top: 6px;
+  border-radius: 2px;
+}
+/*-- Contact Section --*/
+#contact { 
+  background: url(../img/shl.png) 50% 0 fixed; 
+  height: auto;
+  margin: 0 auto; 
+  width: 100%; 
+  position: relative; 
+  padding-top: 135px;
+  padding-bottom: 220px;
+  box-sizing: border-box;
+  color: #18212b;
+}
+#contact h2 {
+  font-size: 2.8em;
+}
+#contact p {
+  font-size: 1.2em;
+  color: #18212b;
+}
+#contact i {
+  font-size: 2em;
+  color: #2d5e6e;
+}
+#contact i:hover {
+  color: #ff6a59;
+}
+/*-- Footer Section --*/
+footer {
+  height: 300px;
+  background-color: #2d5e6e;
+  color: #fff;
+}
+footer>.container-fluid {
+  width: 80%;
+  height: 100%;
+}
+.sm-icons{
+  margin-top: 180px;
+}
+.sm-icons i {
+  color: #fff;
+  font-size: 1.2em;
+}
+.sm-icons a:last-child {
+  margin-right: 1px;
+}
+.sm-icons i:hover {
+  color: #ff6a59;
+}
+.footer-divider {
+  border-top: 5px solid #214652;
+  color: #6bbd89;
+}
+.footer-divider a {
+  color: #6bbd89;
+  text-decoration: none;
+}
+.footer-divider a:hover {
+  text-decoration: underline;
+}
+.footer-side-padding {
+  padding: 0;
+}
+/*-- Media Query Overrides --*/
+/* Extra small devices (phones, less than 768px) */
+@media (max-width: 767px) 
+{ 
+  .wrapper {
+    overflow-x: hidden;
+}
+  /* hero section */
+  #particles-js {
+    min-height: 500px;
+  }
+  .headline {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 100px;
+    font-size: .8em;
+  }
+  .headline p {
+    font-size: 1.4em;
+  }
+  /* About section */
+  #about {
+    padding: 70px 0;
+  }
+  #about p {
+    text-align: center;
+  }
+  div.skills {
+    text-align: center;
+    margin-left: 0;
+    margin-top: 30px;
+  }
+  /* Portfolio section */
+  #portfolio {
+    padding: 80px 0;
+    text-align: center;
+  }
+  .container-fluid.folio-wrap {
+    width: 100%;
+  }
+  #portfolio img {
+    margin-top: 20px;
+  }
+  /* Contact section */
+  #contact {
+    padding: 80px 0;
+  }
+  /* Footer */
+  footer {
+    height: 200px;
+  }
+  .sm-icons {
+    margin-top: 80px;
+    text-align: center;
+  }
+  .footer-divider, .top-link {
+    text-align: center;
+  }
+  .top-link {
+    font-size: 1.2em;
+    margin-top: 10px;
+  }
+}
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) 
+{
+  .wrapper {
+  overflow-x: hidden;
+}
+  #particles-js {
+    min-height: 500px;
+  }
+  .container-fluid.folio-wrap {
+    width: 90%;
+  }
+  .portfolio-panel {
+    padding: 0 5px;
+  }
+  .portfolio-panel-inner {
+    width: 80%;
+  }
+}
